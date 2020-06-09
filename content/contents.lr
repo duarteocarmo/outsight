@@ -1,3 +1,5 @@
+_template: home.html
+---
 title: Welcome to outsight!
 ---
 body:
