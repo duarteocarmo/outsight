@@ -1,7 +1,9 @@
+_model: home
+---
 _template: home.html
 ---
 title: Welcome to outsight!
 ---
-body:
-
-This site is currently under construction. In the meantime, please visit our [LinkedIn](https://pt.linkedin.com/company/outsightportugal) page.
+body: This site is currently under construction. In the meantime, please visit our [LinkedIn](https://pt.linkedin.com/company/outsightportugal) page.
+---
+thang: Developing people at work
