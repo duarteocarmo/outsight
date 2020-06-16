@@ -1,173 +1,165 @@
-  :root {
-    --main-color: #37d3c4;
-    --secondary-color: #f26606;
-    --tertiary-color: #008080;
-  }
-  .row {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+:root {
+	--main-color: #37d3c4;
+	--secondary-color: #f26606;
+	--tertiary-color: #008080;
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
 
-  header {
-    padding: 20em 0 20em;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(header_bg.png);
-    background-position: 50% 50%;
-    background-size: cover;
-  }
+header {
+	padding: 20em 0 20em;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(header_bg.png);
+	background-position: 50% 50%;
+	background-size: cover;
+}
 
-  section {
-    padding: 5em 0;
-  }
+section {
+	padding: 5em 0;
+}
 
-  #quote {
-    background-color: var(--main-color);
-    color: white;
-  }
+#quote {
+	background-color: var(--main-color);
+	color: white;
+}
 
-  #quote footer {
-    color: white;
-  }
+#quote footer {
+	color: white;
+}
 
+#about {
+	background-color: var(--tertiary-color);
+	color: white;
+}
 
-  #about {
-    background-color: var(--tertiary-color);
-    color: white;
-  }
+#about-card {
+	background-color: var(--secondary-color);
+}
 
-  #about-card {
-    background-color: var(--secondary-color);
-  }
+#contact-button {
+	background-color: rgb(237, 9, 134);
+	color: white;
+}
 
-  #contact-button {
-    background-color: rgb(237, 9, 134);
-    color: white;
-  }
+#team-banner {
+	background-color: rgb(229, 229, 229);
+}
 
-  #team-banner {
-    background-color: rgb(229, 229, 229);
-  }
+#team-person {
+	background-color: white;
+}
 
-  #team-person {
-    background-color: white;
-  }
+#circle-container {
+	width: 250px;
+	height: 250px;
+}
 
-  #circle-container {
-    width: 250px;
-    height: 250px;
-  }
+.circle-green {
+	background: none;
+	border-radius: 45%;
+	height: 15em;
+	width: 15em;
+	border: 2em solid rgb(0, 118, 118);
+	margin-right: -5em;
+}
 
+.circle-orange {
+	background: url(joana.png) rgba(240, 91, 11, 0.8);
+	background-size: cover;
+	background-blend-mode: multiply;
+	height: 10em;
+	width: 10em;
+	border-radius: 100%;
+	margin-left: -15em;
+}
 
-  .circle-green {
-    background: none;
-    border-radius: 45%;
-    height: 15em;
-    width: 15em;
-    border: 2em solid rgb(0, 118, 118);
-    margin-right: -5em;
+#what-we-do {
+	background-color: black;
+}
 
-  }
+#what-we-do h3 {
+	color: var(--secondary-color);
+}
 
-  .circle-orange {
-    background: url(joana.png) rgba(240, 91, 11, 0.8);
-    background-size: cover;
-    background-blend-mode: multiply;
-    height: 10em;
-    width: 10em;
-    border-radius: 100%;
-    margin-left: -15em;
-  }
+#what-we-do p {
+	color: white;
+	font-size: 1.5em;
+	font-weight: 200;
+	font-style: italic;
+}
 
-  #what-we-do {
-    background-color: black;
-  }
+#services {
+	padding-top: 0;
+	padding-bottom: 0;
+}
 
-  #what-we-do h3 {
-    color: var(--secondary-color);
-  }
+.services-1 {
+	background: url(services_1.png) rgba(0, 128, 128, 0.6);
+	background-size: cover;
+	background-blend-mode: multiply;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2.5em;
+}
 
-  #what-we-do p {
-    color: white;
-    font-size: 1.5em;
-    font-weight: 200;
-    font-style: italic;
-  }
+#service-detail {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
 
-  #services {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+.dark-green {
+	color: var(--tertiary-color);
+}
 
-  .services-1 {
-    background: url(services_1.png) rgba(0, 128, 128, 0.6);
-    background-size: cover;
-    background-blend-mode: multiply;
-    color: white;
-    padding-top: 2em;
-    padding-bottom: 2.5em;
+.light-green {
+	color: var(--primary-color);
+}
 
-  }
+.orange {
+	color: var(--secondary-color);
+}
 
-  #service-detail {
-    padding-bottom: 2em;
-    padding-top: 2em;
-  }
+.small-text {
+	font-size: 0.8em;
+}
 
-  .dark-green {
-    color: var(--tertiary-color)
-  }
+.fa-circle {
+	color: var(--tertiary-color);
+}
 
-  .light-green {
-    color: var(--primary-color);
-  }
+#service-detail {
+	background-color: rgb(248, 248, 248);
+}
 
-  .orange {
-    color: var(--secondary-color)
-  }
+#about-person {
+	background-color: rgb(248, 248, 248);
+}
 
-  .small-text {
-    font-size: 0.8em;
-  }
+#how-numbers {
+	background-color: rgb(248, 248, 248);
+}
 
-  .fa-circle {
-    color: var(--tertiary-color);
-  }
+hr.separator {
+	border: 0.5px solid var(--secondary-color);
+}
 
-  #service-detail {
-    background-color: rgb(248, 248, 248);
-  }
+hr.separator-1 {
+	border: 0.5px solid var(--tertiary-color);
+	width: 50%;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
 
-  #about-person {
+.circle-testimonial {
+	background-size: cover;
+	background-blend-mode: multiply;
+	height: 11em;
+	width: 11em;
+	border-radius: 100%;
+}
 
-    background-color: rgb(248, 248, 248);
-  }
-
-  #how-numbers {
-    background-color: rgb(248, 248, 248);
-
-  }
-
-  hr.separator {
-    border: 0.5px solid var(--secondary-color);
-  }
-
-  hr.separator-1 {
-    border: 0.5px solid var(--tertiary-color);
-    width: 50%;
-    margin-top: 4em;
-    margin-bottom: 4em;
-  }
-
-  .circle-testimonial {
-    background: url(joana.png) rgba(240, 91, 11, 0.8);
-    background-size: cover;
-    background-blend-mode: multiply;
-    height: 11em;
-    width: 11em;
-    border-radius: 100%;
-
-  }
-
-  #contact {
-    background-color: black;
-    color: white;
-  }
+#contact {
+	background-color: black;
+	color: white;
+}
