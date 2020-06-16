@@ -3,6 +3,10 @@
     --secondary-color: #f26606;
     --tertiary-color: #008080;
   }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
   header {
     padding: 20em 0 20em;
