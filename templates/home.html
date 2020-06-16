@@ -565,6 +565,11 @@
       });
     });
   </script>
+  <script>
+    $('.collapse').on('shown.bs.collapse', function () {
+      this.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+    });
+  </script>
 
 </body>
 
