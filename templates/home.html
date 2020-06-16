@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="{{ '/static/styles.css' | asseturl }}">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/fb584020f8.js" crossorigin="anonymous"></script>
   <link rel="stylesheet"
@@ -22,7 +23,7 @@
     title="Under Construction">Under Construction</a>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img src="outsight_logo.png" height="30" alt="" loading="lazy" style="filter: invert();">
+      <img src="{{'static/outsight_logo.png' }}" height="30" alt="" loading="lazy" style="filter: invert();">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -124,7 +125,7 @@
     <div class="container">
       <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="ana.png" alt="Card image cap">
+          <img class="card-img-top" src="{{ 'static/ana.png' }}" alt="Card image cap">
           <div class="card-body text-center">
             <h5 class="card-title">Ana Duarte Ribeiro</h5>
             <p class="card-text">Senior Executive & Team Coach</p>
@@ -134,7 +135,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="joana.png" alt="Card image cap">
+          <img class="card-img-top" src="{{ 'static/joana.png' }}" alt="Card image cap">
           <div class="card-body text-center">
             <h5 class="card-title">Joana Domingues</h5>
             <p class="card-text">Senior Executive & Team Coach</p>
@@ -144,7 +145,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="madalena.png" alt="Card image cap">
+          <img class="card-img-top" src="{{ 'static/madalena.png' }}" alt="Card image cap">
           <div class="card-body text-center">
             <h5 class="card-title">Madalena Paiva</h5>
             <p class="card-text">Senior Executive & Team Coach</p>
@@ -154,7 +155,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="teresa.png" alt="Card image cap">
+          <img class="card-img-top" src="{{ 'static/teresa.png' }}" alt="Card image cap">
           <div class="card-body text-center">
             <h5 class="card-title">Teresa Oliveira</h5>
             <p class="card-text">Senior Executive & Team Coach</p>
@@ -360,11 +361,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col mx-auto">
-          <div class="text-center"><div class="circle-testimonial"></div>
-        </div> 
+        <div class="col-sm-3  mb-3 d-flex justify-content-center">
+          <div class="circle-testimonial">
+          </div>
         </div>
-        <div class="col-9 text-left">
+        <div class="col-lg-9 text-left">
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin tempor erat, eu interdum sapien
             ornare sit amet. Morbi nec nisl tristique, ultrices lectus pretium, porttitor nunc. Pellentesque vitae ante
             vel mi vehicula eleifend a eu nibh. Integer non nisi finibus, lacinia lacus ac, ullamcorper felis.
@@ -383,11 +384,7 @@
       </div>
       <hr class="separator-1">
       <div class="row">
-        <div class="col mx-auto">
-          <div class="text-center"><div class="circle-testimonial"></div>
-        </div> 
-        </div>
-        <div class="col-9 text-left">
+        <div class="col-lg-9 text-right order-2 order-sm-2">
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin tempor erat, eu interdum sapien
             ornare sit amet. Morbi nec nisl tristique, ultrices lectus pretium, porttitor nunc. Pellentesque vitae ante
             vel mi vehicula eleifend a eu nibh. Integer non nisi finibus, lacinia lacus ac, ullamcorper felis.
@@ -403,8 +400,11 @@
             turpis, pulvinar et risus ac, finibus suscipit dolor. Nulla mattis molestie massa, ut faucibus lorem ornare
             vitae. Sed id posuere dolor, sed tincidunt lacus. </p>
         </div>
+        <div class="col-sm-3  mb-3 d-flex justify-content-center order-1 order-sm-2">
+          <div class="circle-testimonial">
+          </div>
+        </div>
       </div>
-    </div>
   </section>
 
 
@@ -425,170 +425,3 @@
 </body>
 
 </html>
-
-<style>
-  :root {
-    --main-color: #37d3c4;
-    --secondary-color: #f26606;
-    --tertiary-color: #008080;
-  }
-
-  header {
-    padding: 20em 0 20em;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(header_bg.png);
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  section {
-    padding: 5em 0;
-  }
-
-  #quote {
-    background-color: var(--main-color);
-    color: white;
-  }
-
-  #quote footer {
-    color: white;
-  }
-
-
-  #about {
-    background-color: var(--tertiary-color);
-    color: white;
-  }
-
-  #about-card {
-    background-color: var(--secondary-color);
-  }
-
-  #contact-button {
-    background-color: rgb(237, 9, 134);
-    color: white;
-  }
-
-  #team-banner {
-    background-color: rgb(229, 229, 229);
-  }
-
-  #team-person {
-    background-color: white;
-  }
-
-  #circle-container {
-    width: 250px;
-    height: 250px;
-  }
-
-
-  .circle-green {
-    background: none;
-    border-radius: 45%;
-    height: 20em;
-    width: 20em;
-    border: 2em solid rgb(0, 118, 118);
-    margin-right: -5em;
-
-  }
-
-  .circle-orange {
-    background: url(joana.png) rgba(240, 91, 11, 0.8);
-    background-size: cover;
-    background-blend-mode: multiply;
-    height: 11em;
-    width: 11em;
-    border-radius: 100%;
-    margin-left: -20em;
-  }
-
-  #what-we-do {
-    background-color: black;
-  }
-
-  #what-we-do h3 {
-    color: var(--secondary-color);
-  }
-
-  #what-we-do p {
-    color: white;
-    font-size: 1.5em;
-    font-weight: 200;
-    font-style: italic;
-  }
-
-  #services {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .services-1 {
-    background: url(services_1.png) rgba(0, 128, 128, 0.6);
-    background-size: cover;
-    background-blend-mode: multiply;
-    color: white;
-    padding-top: 2em;
-    padding-bottom: 2.5em;
-
-  }
-
-  #service-detail {
-    padding-bottom: 2em;
-    padding-top: 2em;
-  }
-
-  .dark-green {
-    color: var(--tertiary-color)
-  }
-
-  .light-green {
-    color: var(--primary-color);
-  }
-
-  .orange {
-    color: var(--secondary-color)
-  }
-
-  .small-text {
-    font-size: 0.8em;
-  }
-
-  .fa-circle {
-    color: var(--tertiary-color);
-  }
-
-  #service-detail {
-    background-color: rgb(248, 248, 248);
-  }
-
-  #about-person {
-
-    background-color: rgb(248, 248, 248);
-  }
-
-  #how-numbers {
-    background-color: rgb(248, 248, 248);
-
-  }
-
-  hr.separator {
-    border: 0.5px solid var(--secondary-color);
-  }
-
-  hr.separator-1 {
-    border: 0.5px solid var(--tertiary-color);
-    width: 50%;
-    margin-top: 4em;
-    margin-bottom: 4em;
-  }
-
-  .circle-testimonial {
-    background: url(joana.png) rgba(240, 91, 11, 0.8);
-    background-size: cover;
-    background-blend-mode: multiply;
-    height: 11em;
-    width: 11em;
-    border-radius: 100%;
-
-  }
-</style>
