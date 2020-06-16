@@ -7,6 +7,7 @@
 - Data Model and markdown content
 - Google Analytics
 - Meta Tags
+- favicon
 - Contact email 
 
 ## Done
