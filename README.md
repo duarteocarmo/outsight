@@ -1,7 +1,6 @@
 # outsight
 
 ## TODO
-- Fix Spacing bug
 - Polish section by section with graphics (logos and such)
 - Fonts
 - Collapsible sections (team and projects)
@@ -11,3 +10,4 @@
 - Contact email 
 
 ## Done
+- Fix Spacing bug
