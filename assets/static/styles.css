@@ -162,3 +162,8 @@
     border-radius: 100%;
 
   }
+
+  #contact {
+    background-color: black;
+    color: white;
+  }
