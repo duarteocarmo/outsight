@@ -2,10 +2,6 @@ _model: home
 ---
 _template: home.html
 ---
-title: Welcome to outsight!
----
-body: This site is currently under construction. In the meantime, please visit our [LinkedIn](https://pt.linkedin.com/company/outsightportugal) page.
----
 headline: Developing people at work
 ---
 about_menu: About us
@@ -43,5 +39,169 @@ what_2_description: Procuramos garantir
 what_3_title: Competencias
 ---
 what_3_description: Competencieas afadfadf
+---
+person_1_name: Ana Duarte Ribeiro
+---
+person_1_role: Senior Executive and Team Coach
+---
+person_1_cv:
 
+Com 20 anos de trabalho com dezenas de organizações, a Joana trabalha como coach e consultora de
+desenvolvimento organizacional, e passa maior parte do seu tempo a apoiar Top Management Teams e os seus
+Executivos. Desenhou e facilitou processos de desenvolvimento em dezenas de organizações, com grupos e
+equipas de 5 a 120 pessoas, em várias indústrias e países, e acompanhou individualmente mais de 250 executivos, 20 equipas e
+vários grupos de aprendizagem entre “pares”.
 
+Na Católica-Lisbon é docente convidada na área da Liderança - em Programas Executivos e no TheLisbonMBA;
+coordenou o programa de competências de liderança para Mestrados de Gestão durante 6 anos (incluindo
+assessments em pequenos grupos, feedback 360, projetos no terreno e workshops).
+
+Anteriormente, foi consultora de gestão da McKinsey&Co durante 8 anos, onde se tornou Especialista da
+Prática Global de Desenvolvimento Organizacional e de Liderança; permanece como advisor externa e
+facilitadora.
+
+MBA (pelo INSEAD), licenciada em Gestão (Católica-Lisboa), Mediadora de Conflitos Certificada (ADR Group) e
+Lead Facilitator certificada (Gita Bellin & Associates). Formação em Coaching Executivo certificada pela ICF
+(foi ACC, a preparar PCC), e em Voice Dialogue.
+---
+person_2_name: Joana
+---
+person_2_role: Senior Executive and Team Coach
+---
+person_2_cv:
+
+Com 20 anos de trabalho com dezenas de organizações, a Joana trabalha como coach e consultora de
+desenvolvimento organizacional, e passa maior parte do seu tempo a apoiar Top Management Teams e os seus
+Executivos. Desenhou e facilitou processos de desenvolvimento em dezenas de organizações, com grupos e
+equipas de 5 a 120 pessoas, em várias indústrias e países, e acompanhou individualmente mais de 250 executivos, 20 equipas e
+vários grupos de aprendizagem entre “pares”.
+
+Na Católica-Lisbon é docente convidada na área da Liderança - em Programas Executivos e no TheLisbonMBA;
+coordenou o programa de competências de liderança para Mestrados de Gestão durante 6 anos (incluindo
+assessments em pequenos grupos, feedback 360, projetos no terreno e workshops).
+
+Anteriormente, foi consultora de gestão da McKinsey&Co durante 8 anos, onde se tornou Especialista da
+Prática Global de Desenvolvimento Organizacional e de Liderança; permanece como advisor externa e
+facilitadora.
+
+MBA (pelo INSEAD), licenciada em Gestão (Católica-Lisboa), Mediadora de Conflitos Certificada (ADR Group) e
+Lead Facilitator certificada (Gita Bellin & Associates). Formação em Coaching Executivo certificada pela ICF
+(foi ACC, a preparar PCC), e em Voice Dialogue.
+---
+person_3_name: Madalena
+---
+person_3_role: Senior Executive and Team Coach
+---
+person_3_cv:
+
+Com 20 anos de trabalho com dezenas de organizações, a Joana trabalha como coach e consultora de
+desenvolvimento organizacional, e passa maior parte do seu tempo a apoiar Top Management Teams e os seus
+Executivos. Desenhou e facilitou processos de desenvolvimento em dezenas de organizações, com grupos e
+equipas de 5 a 120 pessoas, em várias indústrias e países, e acompanhou individualmente mais de 250 executivos, 20 equipas e
+vários grupos de aprendizagem entre “pares”.
+
+Na Católica-Lisbon é docente convidada na área da Liderança - em Programas Executivos e no TheLisbonMBA;
+coordenou o programa de competências de liderança para Mestrados de Gestão durante 6 anos (incluindo
+assessments em pequenos grupos, feedback 360, projetos no terreno e workshops).
+
+Anteriormente, foi consultora de gestão da McKinsey&Co durante 8 anos, onde se tornou Especialista da
+Prática Global de Desenvolvimento Organizacional e de Liderança; permanece como advisor externa e
+facilitadora.
+
+MBA (pelo INSEAD), licenciada em Gestão (Católica-Lisboa), Mediadora de Conflitos Certificada (ADR Group) e
+Lead Facilitator certificada (Gita Bellin & Associates). Formação em Coaching Executivo certificada pela ICF
+(foi ACC, a preparar PCC), e em Voice Dialogue.
+---
+person_4_name: Teresa
+---
+person_4_role: Senior Executive and Team Coach
+---
+person_4_cv:
+
+Com 20 anos de trabalho com dezenas de organizações, a Joana trabalha como coach e consultora de
+desenvolvimento organizacional, e passa maior parte do seu tempo a apoiar Top Management Teams e os seus
+Executivos. Desenhou e facilitou processos de desenvolvimento em dezenas de organizações, com grupos e
+equipas de 5 a 120 pessoas, em várias indústrias e países, e acompanhou individualmente mais de 250 executivos, 20 equipas e
+vários grupos de aprendizagem entre “pares”.
+
+Na Católica-Lisbon é docente convidada na área da Liderança - em Programas Executivos e no TheLisbonMBA;
+coordenou o programa de competências de liderança para Mestrados de Gestão durante 6 anos (incluindo
+assessments em pequenos grupos, feedback 360, projetos no terreno e workshops).
+
+Anteriormente, foi consultora de gestão da McKinsey&Co durante 8 anos, onde se tornou Especialista da
+Prática Global de Desenvolvimento Organizacional e de Liderança; permanece como advisor externa e
+facilitadora.
+
+MBA (pelo INSEAD), licenciada em Gestão (Católica-Lisboa), Mediadora de Conflitos Certificada (ADR Group) e
+Lead Facilitator certificada (Gita Bellin & Associates). Formação em Coaching Executivo certificada pela ICF
+(foi ACC, a preparar PCC), e em Voice Dialogue.
+---
+what_we_do_description: Trabalhamos o desenvolvimento das pessoas no trabalho, com organizações de diferentes setores e dimensões, com 3 grandes focos.
+---
+service_cat_1: Project Example
+---
+service_cat_2: Challenge
+---
+service_cat_3: Solution
+---
+service_cat_4: Results
+---
+service_1_title: Programas de desenvolvimento de liderança aplicados e à medida
+---
+service_1_subtitle: Apoio às prioridades de evolução da organização. 
+---
+service_1_name: “Diálogos que Nos Desenvolvem”
+---
+service_1_subname: Desenvolver capacidades de liderança e desenvolvimento de pessoas.
+---
+service_1_challenge:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.
+---
+service_1_solution:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.
+---
+service_1_results:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.
+---
+service_2_title: Programas de desenvolvimento de liderança aplicados e à medida
+---
+service_2_subtitle: Apoio às prioridades de evolução da organização. 
+---
+service_2_name: “Diálogos que Nos Desenvolvem”
+---
+service_2_subname: Desenvolver capacidades de liderança e desenvolvimento de pessoas.
+---
+service_2_challenge:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.
+---
+service_2_solution:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.
+---
+service_2_results:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.
+---
+service_3_title: Programas de desenvolvimento de liderança aplicados e à medida
+---
+service_3_subtitle: Apoio às prioridades de evolução da organização. 
+---
+service_3_name: “Diálogos que Nos Desenvolvem”
+---
+service_3_subname: Desenvolver capacidades de liderança e desenvolvimento de pessoas.
+---
+service_3_challenge:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.
+---
+service_3_solution:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.
+---
+service_3_results:
+
+Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente hierárquica, enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de “turn around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava. O sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais partilhada, mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de RH Corporativa pediu-nos ajuda.

@@ -59,7 +59,8 @@
     <div class="container text-center">
       <img class="img-fluid mb-4" src="{{ 'static/outsight_logo_large.png' }}" alt="Outsight Logo">
       <h1 class="mb-4">{{ this.headline }}</h1>
-      <a href="mailto:{{ this.email_contact }}" type="button" class="btn btn-lg" id="contact-button">{{ this.call_to_action }}</a>
+      <a href="mailto:{{ this.email_contact }}" type="button" class="btn btn-lg"
+        id="contact-button">{{ this.call_to_action }}</a>
     </div>
   </header>
 
@@ -123,8 +124,8 @@
             aria-controls="collapseExample">
             <img class="card-img-top" src="{{ 'static/ana.png' }}" alt="Card image cap">
             <div class="card-body text-center">
-              <h5 class="card-title">Ana Duarte Ribeiro</h5>
-              <p class="card-text">Senior Executive & Team Coach</p>
+              <h5 class="card-title">{{this.person_1_name }}</h5>
+              <p class="card-text">{{this.person_1_role }}</p>
               <p class="card-text">
                 <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ana-duarte-ribeiro"><i
                     class="fab fa-linkedin" style="font-size: 2em ;"></i></a></p>
@@ -134,8 +135,8 @@
             aria-controls="collapseExample2">
             <img class="card-img-top" src="{{ 'static/joana.png' }}" alt="Card image cap">
             <div class="card-body text-center">
-              <h5 class="card-title">Joana Domingues</h5>
-              <p class="card-text">Senior Executive & Team Coach</p>
+              <h5 class="card-title">{{ this.person_2_name }}</h5>
+              <p class="card-text">{{ this.person_2_role }}</p>
               <p class="card-text">
                 <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/joanadomingues#"><i
                     class="fab fa-linkedin" style="font-size: 2em ;"></i></a></p>
@@ -145,8 +146,8 @@
             aria-controls="collapseExample3">
             <img class="card-img-top" src="{{ 'static/madalena.png' }}" alt="Card image cap">
             <div class="card-body text-center">
-              <h5 class="card-title">Madalena Paiva</h5>
-              <p class="card-text">Senior Executive & Team Coach</p>
+              <h5 class="card-title">{{ this.person_3_name }}</h5>
+              <p class="card-text">{{ this.person_3_role }}</p>
               <p class="card-text">
                 <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/madalenapaiva"><i
                     class="fab fa-linkedin" style="font-size: 2em ;"></i></a></p>
@@ -156,8 +157,8 @@
             aria-controls="collapseExample4">
             <img class="card-img-top" src="{{ 'static/teresa.png' }}" alt="Card image cap">
             <div class="card-body text-center">
-              <h5 class="card-title">Teresa Oliveira</h5>
-              <p class="card-text">Senior Executive & Team Coach</p>
+              <h5 class="card-title">{{ this.person_4_name }}</h5>
+              <p class="card-text">{{ this.person_4_role }}</p>
               <p class="card-text">
                 <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/teresavoliveira"><i
                     class="fab fa-linkedin" style="font-size: 2em ;"></i></a></p>
@@ -175,24 +176,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-lg-push-6">
-            <h3>Ana Duarte Ribeiro</h3>
-            <p>Com 20 anos de trabalho com dezenas de organizações, a Joana trabalha como coach e consultora de
-              desenvolvimento organizacional, e passa maior parte do seu tempo a apoiar Top Management Teams e os seus
-              Executivos. Desenhou e facilitou processos de desenvolvimento em dezenas de organizações, com grupos e
-              equipas de 5 a 120
-              pessoas, em várias indústrias e países, e acompanhou individualmente mais de 250 executivos, 20 equipas e
-              vários grupos de aprendizagem entre “pares”.</p>
-            <p>Na Católica-Lisbon é docente convidada na área da Liderança - em Programas Executivos e no TheLisbonMBA;
-              coordenou o programa de competências de liderança para Mestrados de Gestão durante 6 anos (incluindo
-              assessments em pequenos grupos, feedback 360, projetos no terreno e workshops).</p>
-            <p>Anteriormente, foi consultora de gestão da McKinsey&Co durante 8 anos, onde se tornou Especialista da
-              Prática Global de Desenvolvimento Organizacional e de Liderança; permanece como advisor externa e
-              facilitadora.</p>
-            <p>MBA (pelo INSEAD), licenciada em Gestão (Católica-Lisboa), Mediadora de Conflitos Certificada (ADR Group)
-              e
-              Lead Facilitator certificada (Gita Bellin & Associates). Formação em Coaching Executivo certificada pela
-              ICF
-              (foi ACC, a preparar PCC), e em Voice Dialogue.</p>
+            <h3>{{ this.person_1_name }}</h3>
+            <p>{{ this.person_1_cv }}</p>
           </div>
         </div>
         <div class="row collapse" id="collapseExample2" data-parent="#myPersonGroup">
@@ -203,25 +188,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-lg-push-6">
-            <h3>Joana Domingues</h3>
-            <p>Com 20 anos de trabalho com dezenas de organizações, a Joana trabalha como coach e consultora de
-              desenvolvimento organizacional, e passa maior parte do seu tempo a apoiar Top Management Teams e os seus
-              Executivos. Desenhou e facilitou processos de desenvolvimento em dezenas de organizações, com grupos e
-              equipas de 5 a 120
-              pessoas, em várias indústrias e países, e acompanhou individualmente mais de 250 executivos, 20 equipas e
-              vários grupos de aprendizagem entre “pares”.</p>
-            <p>Na Católica-Lisbon é docente convidada na área da Liderança - em Programas Executivos e no TheLisbonMBA;
-              coordenou o programa de competências de liderança para Mestrados de Gestão durante 6 anos (incluindo
-              assessments em pequenos grupos, feedback 360, projetos no terreno e workshops).</p>
-            <p>Anteriormente, foi consultora de gestão da McKinsey&Co durante 8 anos, onde se tornou Especialista da
-              Prática Global de Desenvolvimento Organizacional e de Liderança; permanece como advisor externa e
-              facilitadora.</p>
-            <p>MBA (pelo INSEAD), licenciada em Gestão (Católica-Lisboa), Mediadora de Conflitos Certificada (ADR Group)
-              e
-              Lead Facilitator certificada (Gita Bellin & Associates). Formação em Coaching Executivo certificada pela
-              ICF
-              (foi ACC, a preparar PCC), e em Voice Dialogue.</p>
-
+            <h3>{{ this.person_2_name }}</h3>
+            <p>{{ this.person_2_cv }}</p>
           </div>
         </div>
         <div class="row collapse" id="collapseExample3" data-parent="#myPersonGroup">
@@ -233,25 +201,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-lg-push-6">
-            <h3>Madalena Paiva</h3>
-            <p>Com 20 anos de trabalho com dezenas de organizações, a Joana trabalha como coach e consultora de
-              desenvolvimento organizacional, e passa maior parte do seu tempo a apoiar Top Management Teams e os seus
-              Executivos. Desenhou e facilitou processos de desenvolvimento em dezenas de organizações, com grupos e
-              equipas de 5 a 120
-              pessoas, em várias indústrias e países, e acompanhou individualmente mais de 250 executivos, 20 equipas e
-              vários grupos de aprendizagem entre “pares”.</p>
-            <p>Na Católica-Lisbon é docente convidada na área da Liderança - em Programas Executivos e no TheLisbonMBA;
-              coordenou o programa de competências de liderança para Mestrados de Gestão durante 6 anos (incluindo
-              assessments em pequenos grupos, feedback 360, projetos no terreno e workshops).</p>
-            <p>Anteriormente, foi consultora de gestão da McKinsey&Co durante 8 anos, onde se tornou Especialista da
-              Prática Global de Desenvolvimento Organizacional e de Liderança; permanece como advisor externa e
-              facilitadora.</p>
-            <p>MBA (pelo INSEAD), licenciada em Gestão (Católica-Lisboa), Mediadora de Conflitos Certificada (ADR Group)
-              e
-              Lead Facilitator certificada (Gita Bellin & Associates). Formação em Coaching Executivo certificada pela
-              ICF
-              (foi ACC, a preparar PCC), e em Voice Dialogue.</p>
-
+            <h3>{{ this.person_3_name }}</h3>
+            <p>{{ this.person_3_cv }}</p>
           </div>
         </div>
         <div class="row collapse" id="collapseExample4" data-parent="#myPersonGroup">
@@ -262,25 +213,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-lg-push-6">
-            <h3>Teresa Oliveira</h3>
-            <p>Com 20 anos de trabalho com dezenas de organizações, a Joana trabalha como coach e consultora de
-              desenvolvimento organizacional, e passa maior parte do seu tempo a apoiar Top Management Teams e os seus
-              Executivos. Desenhou e facilitou processos de desenvolvimento em dezenas de organizações, com grupos e
-              equipas de 5 a 120
-              pessoas, em várias indústrias e países, e acompanhou individualmente mais de 250 executivos, 20 equipas e
-              vários grupos de aprendizagem entre “pares”.</p>
-            <p>Na Católica-Lisbon é docente convidada na área da Liderança - em Programas Executivos e no TheLisbonMBA;
-              coordenou o programa de competências de liderança para Mestrados de Gestão durante 6 anos (incluindo
-              assessments em pequenos grupos, feedback 360, projetos no terreno e workshops).</p>
-            <p>Anteriormente, foi consultora de gestão da McKinsey&Co durante 8 anos, onde se tornou Especialista da
-              Prática Global de Desenvolvimento Organizacional e de Liderança; permanece como advisor externa e
-              facilitadora.</p>
-            <p>MBA (pelo INSEAD), licenciada em Gestão (Católica-Lisboa), Mediadora de Conflitos Certificada (ADR Group)
-              e
-              Lead Facilitator certificada (Gita Bellin & Associates). Formação em Coaching Executivo certificada pela
-              ICF
-              (foi ACC, a preparar PCC), e em Voice Dialogue.</p>
-
+            <h3>{{ this.person_4_name }}</h3>
+            <p>{{ this.person_4_cv }}</p>
           </div>
         </div>
       </div>
@@ -290,10 +224,8 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h3>O que fazemos</h3>
-          <p>Trabalhamos o desenvolvimento das pessoas no trabalho, com organizações de diferentes setores e
-            dimensões,
-            com 3 grandes focos.</p>
+          <h3>{{ this.what_menu }}</h3>
+          <p>{{ this.what_we_do_description }}</p>
         </div>
       </div>
     </div>
@@ -306,20 +238,20 @@
           <div class="col-md services-1" data-toggle="collapse" href="#collapseExample5" role="button"
             aria-expanded="false" aria-controls="collapseExample3"
             style="background: url({{ 'static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
-            <h4>Coaching de equipas</h4>
-            <p>Apoio as prioridades de evolucao</p>
+            <h4>{{ this.service_1_title }}</h4>
+            <p>{{ this.service_1_subtitle }}</p>
           </div>
           <div class="col-md services-1 " data-toggle="collapse" href="#collapseExample6" role="button"
             aria-expanded="false" aria-controls="collapseExample3"
             style="background: url({{ 'static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
-            <h4>Coaching de equipas</h4>
-            <p>Apoio as prioridades de evolucao</p>
+            <h4>{{ this.service_2_title }}</h4>
+            <p>{{ this.service_2_subtitle }}</p>
           </div>
           <div class="col-md services-1 " data-toggle="collapse" href="#collapseExample7" role="button"
             aria-expanded="false" aria-controls="collapseExample3"
             style="background: url({{ 'static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
-            <h4>Programas de desenvolvimento de liderança aplicados e à medida</h4>
-            <p>Apoio as prioridades de evolucao</p>
+            <h4>{{ this.service_3_title }}</h4>
+            <p>{{ this.service_3_subtitle }}</p>
           </div>
         </div>
       </div>
@@ -329,143 +261,43 @@
       <div class="container">
         <div class="row collapse" id="collapseExample5" data-parent="#myServiceGroup">
           <div class="col-lg-8 mx-auto text-center">
-            <h5 class="dark-green">Exemplo de Projecto</h5>
-            <h3>"Dialogos que nos desenvolvem"</h3>
-            <p>Desenvolver capacidades de liderança e desenvolvimento de pessoas.</p>
-
-            <h4 class="dark-green">Desafio</h4>
-            <p class="small-text">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
-            <h4 class="dark-green">Solução</h4>
-            <p class="small-text">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
-            <h4 class="orange">Resultados</h4>
-            <p class="dark-green">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
+            <h5 class="dark-green">{{this.service_cat_1 }}</h5>
+            <h3>{{ this.service_1_name }}</h3>
+            <p>{{ this.service_1_subname }}</p>
+            <h4 class="dark-green">{{this.service_cat_2 }}</h4>
+            <p class="small-text">{{ this.service_1_challenge }}</p>
+            <h4 class="dark-green">{{this.service_cat_3 }}</h4>
+            <p class="small-text">{{ this.service_1_solution }}</p>
+            <h4 class="orange">{{this.service_cat_4 }}</h4>
+            <p class="dark-green">{{ this.service_1_results }}</p>
           </div>
         </div>
         <div class="row collapse" id="collapseExample6" data-parent="#myServiceGroup">
           <div class="col-lg-8 mx-auto text-center">
-            <h5 class="dark-green">Exemplo de Projecto</h5>
-            <h3>"Dialogos que nos desenvolvem"</h3>
-            <p>Desenvolver capacidades de liderança e desenvolvimento de pessoas.</p>
+            <h5 class="dark-green">{{ this.service_cat_1 }}</h5>
+            <h3>{{ this.service_2_name }}</h3>
+            <p>{{ this.service_2_subname }}</p>
 
-            <h4 class="dark-green">Desafio</h4>
-            <p class="small-text">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
-            <h4 class="dark-green">Solução</h4>
-            <p class="small-text">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
-            <h4 class="orange">Resultados</h4>
-            <p class="dark-green">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
+            <h4 class="dark-green">{{ this.service_cat_2 }}</h4>
+            <p class="small-text">{{ this.service_2_challenge }}</p>
+            <h4 class="dark-green">{{ this.service_cat_3 }}</h4>
+            <p class="small-text">{{ this.service_2_solution }}</p>
+            <h4 class="orange">{{ this.service_cat_4 }}</h4>
+            <p class="dark-green">{{ this.service_2_results }}</p>
           </div>
         </div>
         <div class="row collapse" id="collapseExample7" data-parent="#myServiceGroup">
           <div class="col-lg-8 mx-auto text-center">
-            <h5 class="dark-green">Exemplo de Projecto</h5>
-            <h3>"Dialogos que nos desenvolvem"</h3>
-            <p>Desenvolver capacidades de liderança e desenvolvimento de pessoas.</p>
+            <h5 class="dark-green">{{ this.service_cat_1 }}</h5>
+            <h3>{{ this.service_3_name }}</h3>
+            <p>{{ this.service_3_subname }}</p>
 
-            <h4 class="dark-green">Desafio</h4>
-            <p class="small-text">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
-            <h4 class="dark-green">Solução</h4>
-            <p class="small-text">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
-            <h4 class="orange">Resultados</h4>
-            <p class="dark-green">Uma empresa industrial, presente em vários países e com uma cultura tradicionalmente
-              hierárquica,
-              enfrentava grandes desafios de competitividade e rentabilidade. Estava a meio de um ambicioso plano de
-              “turn
-              around” e modernização a 3 anos, que exigia mais cooperação e sinergias entre os países em que operava.
-              O
-              sucesso das muitas iniciativas planeadas dependia também de uma participação ativa e sem precedentes de
-              todos os níveis hierárquicos da organização. Esta transformação precisava de uma liderança mais
-              partilhada,
-              mais “nivelada”, que apoiasse o desenvolvimento mútuo entre as pessoas, de uma forma ágil. A Diretora de
-              RH
-              Corporativa pediu-nos ajuda.</p>
+            <h4 class="dark-green">{{ this.service_cat_2 }}</h4>
+            <p class="small-text">{{ this.service_3_challenge }}</p>
+            <h4 class="dark-green">{{ this.service_cat_3 }}</h4>
+            <p class="small-text">{{ this.service_3_solution }}</p>
+            <h4 class="orange">{{ this.service_cat_4 }}</h4>
+            <p class="dark-green">{{ this.service_3_results }}</p>
           </div>
         </div>
       </div>
