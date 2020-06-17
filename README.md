@@ -1,9 +1,7 @@
 # outsight
 
 ## TODO
-- Meta Tags
 - Contact email 
-- Google Analytics
 
 ## Done
 - Fix Spacing bug
@@ -12,3 +10,5 @@
 - Fonts
 - Data Model and markdown content
 - favicon
+- Meta Tags
+- Google Analytics
