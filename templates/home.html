@@ -32,22 +32,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item px-3">
-          <a class="nav-link" href="#about">ABOUT US</a>
+          <a class="nav-link" href="#about">{{ this.about_menu.upper() }}</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#team-banner">TEAM</a>
+          <a class="nav-link" href="#team-banner">{{ this.team_menu.upper() }}</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#what-we-do">WHAT WE DO</a>
+          <a class="nav-link" href="#what-we-do">{{ this.what_menu.upper() }}</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#how-we-do-it">HOW WE DO IT</a>
+          <a class="nav-link" href="#how-we-do-it">{{ this.how_menu.upper() }}</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#testimonials">CLIENTS</a>
+          <a class="nav-link" href="#testimonials">{{ this.clients_menu.upper() }}</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#contact">CONTACT</a>
+          <a class="nav-link" href="#contact">{{ this.contact_menu.upper() }}</a>
         </li>
         <li class="nav-item px-3">
           <a class="nav-link" target="_blank" href="https://linkedin.com/company/outsightportugal/"><i
@@ -58,8 +58,8 @@
   <header class="text-white">
     <div class="container text-center">
       <img class="img-fluid mb-4" src="{{ 'static/outsight_logo_large.png' }}" alt="Outsight Logo">
-      <h1 class="mb-4">{{ this.thang }}</h1>
-      <a href="mailto:hello@outsight.pt" type="button" class="btn btn-lg" id="contact-button">CONTACT US</a>
+      <h1 class="mb-4">{{ this.headline }}</h1>
+      <a href="mailto:{{ this.email_contact }}" type="button" class="btn btn-lg" id="contact-button">{{ this.call_to_action }}</a>
     </div>
   </header>
 
@@ -68,9 +68,8 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <blockquote class="blockquote text-center" id="quote">
-            <p class="mb-0"><em>"A coach is someone who tells you what you don’t want to hear, who has you see what you
-                don’t want to see, so you can be who you always knew you could be."</em></p>
-            <footer class="blockquote-footer">Tom Landry</footer>
+            <p class="mb-0"><em>"{{ this.quote_1 }}"</em></p>
+            <footer class="blockquote-footer">{{ this.quote_1_source }}</footer>
           </blockquote>
         </div>
       </div>
@@ -78,12 +77,8 @@
   </section>
   <section id="about">
     <div class="container text-center">
-      <h3>About Us</h3>
-      <p>
-        O nosso nome representa a essência do nosso trabalho conjunto nas organizações. Representa a nossa abordagem e
-        aquilo em que acreditamos: o valor que os outros nos trazem para alargar a nossa visão – de nós próprios, das
-        situações e das possibilidades de ação, dando-nos um olhar externo e devolvendo-nos os nossos ângulos cegos. A
-        visão útil que alguém de fora traz para uma Organização, Equipa e Indivíduo.</p>
+      <h3>{{ this.about_menu }}</h3>
+      <p>{{ this.about_intro }}</p>
     </div>
     <br>
     <br>
@@ -91,23 +86,20 @@
       <div class="card-deck">
         <div class="card" id="about-card">
           <div class="card-body">
-            <h5 class="card-title">Problem Finding</h5>
-            <p class="card-text">Não fazemos apenas aquilo que nos pedem, vamos em busca da verdadeira origem do
-              problema, antes de partirmos para soluções.</p>
+            <h5 class="card-title">{{ this.what_1_title }}</h5>
+            <p class="card-text">{{ this.what_1_description }}</p>
           </div>
         </div>
         <div class="card" id="about-card">
           <div class="card-body">
-            <h5 class="card-title">Soluções Flexiveis</h5>
-            <p class="card-text">Procuramos garantir que desenhamos uma solução adequada ao desafio em causa, e
-              ajustamos a abordagem ao longo do caminho.</p>
+            <h5 class="card-title">{{ this.what_2_description }}</h5>
+            <p class="card-text">{{ this.what_2_description }}</p>
           </div>
         </div>
         <div class="card" id="about-card">
           <div class="card-body">
-            <h5 class="card-title">Competências Multidisciplinares</h5>
-            <p class="card-text">Combinamos competências de facilitação, formação, coaching, gestão de equipasd e
-              consultoria de desenvolvimento organizacional e conseguimos adaptá-las ao que a situação exige.</p>
+            <h5 class="card-title">{{ this.what_3_description }}</h5>
+            <p class="card-text">{{ this.what_3_description }}</p>
           </div>
         </div>
       </div>
@@ -115,9 +107,7 @@
     <br>
     <br>
     <div class="container text-center">
-      <p>Esta diversidade de perspetivas permite-nos ver os problemas de ângulos diferentes e construir soluções mais
-        interessantes para o cliente. Desafiamos os nossos clientes, questionamos formas de pensar e de fazer de forma
-        construtiva e transparente.</p>
+      <p>{{ this.about_outro }}</p>
     </div>
   </section>
   <div id="myPersonGroup">
