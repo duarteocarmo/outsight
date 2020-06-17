@@ -1,5 +1,6 @@
 [project]
 name = outsight
+url = "https://outsight.pt"
 
 [alternatives.en]
 name = English

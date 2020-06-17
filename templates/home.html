@@ -1,5 +1,10 @@
 <!doctype html>
+{% if this.language == "pt" %}
+<html lang="pt">
+{% endif %}
+{% if this.language == "en" %}
 <html lang="en">
+{% endif %}
 
 <head>
   <!-- Required meta tags -->
@@ -22,37 +27,40 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '../static/favicon/favicon-16x16.png' }}">
   <link rel="manifest" href="{{ '../static/favicon/site.webmanifest' }}">
 
-  <meta name="generator" content="Pelican v4.2.0" />
-  <meta name="author" content="[Author name here]">
-  <meta name="description" content="My personal website" />
-  <link rel="canonical" href="https://duarteocarmo.com" />
+  <meta name="generator" content="Lektor v3.1.3" />
+  <meta name="author" content="Outsight">
+  <meta name="description" content="{{ this.headline }}" />
+  <link rel="canonical" href="{{ this|url(absolute='true', external='true') }}" />
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="duarteocarmo">
-  <meta name="twitter:url" content="https://duarteocarmo.com">
-  <meta name="twitter:title" content="duarte o.carmo">
-  <meta name="twitter:description" content="My personal website">
-  <meta name="twitter:image" content="https://duarteocarmo.com/images/logo.png">
+  <meta name="twitter:creator" content="outsight_pt">
+  <meta name="twitter:url" content="{{ '../static/favicon/site.webmanifest' }}">
+  <meta name="twitter:title" content="Outsight Portugal">
+  <meta name="twitter:description" content="{{ this.headline }}">
+  <meta name="twitter:image" content="{{'../static/outsight_logo.png' }}">
 
+  {% if this.language == "pt" %}
+  <meta property="og:locale" content="pt_PT" />
+  {% endif %}
+  {% if this.language == "en" %}
   <meta property="og:locale" content="en_US" />
-  <meta property="og:site_name" content="duarte o.carmo" />
+  {% endif %}
+  <meta property="og:site_name" content="Outsight Portugal" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="duarte o.carmo" />
-  <meta property="og:url" content="https://duarteocarmo.com" />
-  <meta property="og:description" content="My personal website" />
-  <meta property="og:image" content="https://duarteocarmo.com/images/logo.png" />
+  <meta property="og:title" content="Outsight Portugal" />
+  <meta property="og:url" content="{{ this|url(absolute='true', external='true') }}" />
+  <meta property="og:description" content="{{ this.headline }}" />
+  <meta property="og:image" content="{{'../static/outsight_logo.png' }}" />
 
   <script type="application/ld+json">
-        {
-          "@context" : "http://schema.org",
-          "@type" : "Blog",
-          "name": "duarte o.carmo",
-          "url" : "https://duarteocarmo.com",
-          "image": "https://duarteocarmo.com/images/logo.png",
-          "description": "My personal website"
-
-        }
-</script>
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Outsight Portugal",
+      "url": "{{ this|url(absolute='true', external='true') }}",
+      "logo": "{{'../static/outsight_logo.png' }}"
+    }
+    </script>
 </head>
 
 <body>

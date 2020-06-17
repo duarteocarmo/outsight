@@ -2,7 +2,6 @@
 
 ## TODO
 - Meta Tags
-- favicon
 - Contact email 
 - Google Analytics
 
@@ -12,3 +11,4 @@
 - Collapsible sections (team and projects)
 - Fonts
 - Data Model and markdown content
+- favicon
