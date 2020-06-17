@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
 :root {
 	--main-color: #37d3c4;
 	--secondary-color: #f26606;
 	--tertiary-color: #008080;
 }
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+h3, h4, h5 {
+	font-weight: 600;
+}
+
 .row {
 	margin-left: 0px;
 	margin-right: 0px;
@@ -22,10 +33,12 @@ section {
 #quote {
 	background-color: var(--main-color);
 	color: white;
+	font-weight: 600;
 }
 
 #quote footer {
 	color: white;
+	font-weight: 300;
 }
 
 #about {

@@ -1,9 +1,6 @@
 # outsight
 
 ## TODO
-- Polish section by section with graphics (logos and such)
-- Fonts
-- Collapsible sections (team and projects)
 - Data Model and markdown content
 - Google Analytics
 - Meta Tags
@@ -12,3 +9,6 @@
 
 ## Done
 - Fix Spacing bug
+- Polish section by section with graphics (logos and such)
+- Collapsible sections (team and projects)
+- Fonts
