@@ -1,10 +1,10 @@
 # outsight
 
 ## TODO
-- Google Analytics
 - Meta Tags
 - favicon
 - Contact email 
+- Google Analytics
 
 ## Done
 - Fix Spacing bug
