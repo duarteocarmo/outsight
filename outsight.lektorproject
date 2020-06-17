@@ -1,2 +1,12 @@
 [project]
 name = outsight
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[alternatives.pt]
+name = Portugues
+url_prefix = /pt/
+locale = pt

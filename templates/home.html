@@ -22,7 +22,7 @@
     title="Under Construction">Under Construction</a>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img src="{{'static/outsight_logo.png' }}" height="30" alt="" loading="lazy" style="filter: invert();">
+      <img src="{{'../static/outsight_logo.png' }}" height="30" alt="" loading="lazy" style="filter: invert();">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,6 +49,16 @@
         <li class="nav-item px-3">
           <a class="nav-link" href="#contact">{{ this.contact_menu.upper() }}</a>
         </li>
+        {% if this.language == "pt" %}
+        <li class="nav-item px-3">
+          <a class="nav-link active" href="{{ '.'|url(alt='en') }}">🇬🇧</a>
+        </li>
+        {% endif %}
+        {% if this.language == "en" %}
+        <li class="nav-item px-3">
+          <a class="nav-link active" href="{{ '.'|url(alt='pt') }}">🇵🇹</a>
+        </li>
+        {% endif %}
         <li class="nav-item px-3">
           <a class="nav-link" target="_blank" href="https://linkedin.com/company/outsightportugal/"><i
               class="fab fa-linkedin" style="font-size: 1.5em;"></i></a>
@@ -57,7 +67,7 @@
   </nav>
   <header class="text-white">
     <div class="container text-center">
-      <img class="img-fluid mb-4" src="{{ 'static/outsight_logo_large.png' }}" alt="Outsight Logo">
+      <img class="img-fluid mb-4" src="{{ '../static/outsight_logo_large.png' }}" alt="Outsight Logo">
       <h1 class="mb-4">{{ this.headline }}</h1>
       <a href="mailto:{{ this.email_contact }}" type="button" class="btn btn-lg"
         id="contact-button">{{ this.call_to_action }}</a>
@@ -122,7 +132,7 @@
         <div class="card-deck">
           <div class="card" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
             aria-controls="collapseExample">
-            <img class="card-img-top" src="{{ 'static/ana.png' }}" alt="Card image cap">
+            <img class="card-img-top" src="{{ '../static/ana.png' }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">{{this.person_1_name }}</h5>
               <p class="card-text">{{this.person_1_role }}</p>
@@ -133,7 +143,7 @@
           </div>
           <div class="card" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
             aria-controls="collapseExample2">
-            <img class="card-img-top" src="{{ 'static/joana.png' }}" alt="Card image cap">
+            <img class="card-img-top" src="{{ '../static/joana.png' }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">{{ this.person_2_name }}</h5>
               <p class="card-text">{{ this.person_2_role }}</p>
@@ -144,7 +154,7 @@
           </div>
           <div class="card" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false"
             aria-controls="collapseExample3">
-            <img class="card-img-top" src="{{ 'static/madalena.png' }}" alt="Card image cap">
+            <img class="card-img-top" src="{{ '../static/madalena.png' }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">{{ this.person_3_name }}</h5>
               <p class="card-text">{{ this.person_3_role }}</p>
@@ -155,7 +165,7 @@
           </div>
           <div class="card" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false"
             aria-controls="collapseExample4">
-            <img class="card-img-top" src="{{ 'static/teresa.png' }}" alt="Card image cap">
+            <img class="card-img-top" src="{{ '../static/teresa.png' }}" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title">{{ this.person_4_name }}</h5>
               <p class="card-text">{{ this.person_4_role }}</p>
@@ -172,7 +182,7 @@
           <div class="col-md-6 col-md-pull-6 mb-5 d-flex align-items-center justify-content-center">
             <div class="circle circle-green  d-flex align-items-center justify-content-center">
               <div class="circle circle-orange"
-                style="background: url({{ 'static/ana.png' }}) rgba(240, 91, 11, 0.8); background-size:cover"></div>
+                style="background: url({{ '../static/ana.png' }}) rgba(240, 91, 11, 0.8); background-size:cover"></div>
             </div>
           </div>
           <div class="col-lg-6 col-lg-push-6">
@@ -184,7 +194,8 @@
           <div class="col-md-6 col-md-pull-6 mb-5 d-flex align-items-center justify-content-center">
             <div class="circle circle-green  d-flex align-items-center justify-content-center">
               <div class="circle circle-orange"
-                style="background: url({{ 'static/joana.png' }}) rgba(240, 91, 11, 0.8); background-size:cover"></div>
+                style="background: url({{ '../static/joana.png' }}) rgba(240, 91, 11, 0.8); background-size:cover">
+              </div>
             </div>
           </div>
           <div class="col-lg-6 col-lg-push-6">
@@ -196,7 +207,7 @@
           <div class="col-md-6 col-md-pull-6 mb-5 d-flex align-items-center justify-content-center">
             <div class="circle circle-green  d-flex align-items-center justify-content-center">
               <div class="circle circle-orange"
-                style="background: url({{ 'static/madalena.png' }}) rgba(240, 91, 11, 0.8); background-size:cover">
+                style="background: url({{ '../static/madalena.png' }}) rgba(240, 91, 11, 0.8); background-size:cover">
               </div>
             </div>
           </div>
@@ -209,7 +220,8 @@
           <div class="col-md-6 col-md-pull-6 mb-5 d-flex align-items-center justify-content-center">
             <div class="circle circle-green  d-flex align-items-center justify-content-center">
               <div class="circle circle-orange"
-                style="background: url({{ 'static/teresa.png' }}) rgba(240, 91, 11, 0.8); background-size:cover"></div>
+                style="background: url({{ '../static/teresa.png' }}) rgba(240, 91, 11, 0.8); background-size:cover">
+              </div>
             </div>
           </div>
           <div class="col-lg-6 col-lg-push-6">
@@ -237,19 +249,19 @@
         <div class="row">
           <div class="col-md services-1" data-toggle="collapse" href="#collapseExample5" role="button"
             aria-expanded="false" aria-controls="collapseExample3"
-            style="background: url({{ 'static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
+            style="background: url({{ '../static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
             <h4>{{ this.service_1_title }}</h4>
             <p>{{ this.service_1_subtitle }}</p>
           </div>
           <div class="col-md services-1 " data-toggle="collapse" href="#collapseExample6" role="button"
             aria-expanded="false" aria-controls="collapseExample3"
-            style="background: url({{ 'static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
+            style="background: url({{ '../static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
             <h4>{{ this.service_2_title }}</h4>
             <p>{{ this.service_2_subtitle }}</p>
           </div>
           <div class="col-md services-1 " data-toggle="collapse" href="#collapseExample7" role="button"
             aria-expanded="false" aria-controls="collapseExample3"
-            style="background: url({{ 'static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
+            style="background: url({{ '../static/services_1.png' }}) rgba(0, 128, 128, 0.6); background-size:cover">
             <h4>{{ this.service_3_title }}</h4>
             <p>{{ this.service_3_subtitle }}</p>
           </div>
@@ -387,7 +399,7 @@
       <div class="row">
         <div class="col-sm-3  mb-3 d-flex justify-content-center">
           <div class="circle-testimonial d-flex align-items-center justify-content-center"
-            style="background: url({{ 'static/testimonial_1.png' }}) ; background-size:cover">
+            style="background: url({{ '../static/testimonial_1.png' }}) ; background-size:cover">
           </div>
         </div>
         <div class="col-lg-9 text-left">
@@ -401,7 +413,7 @@
         </div>
         <div class="col-sm-3  mb-3 d-flex justify-content-center order-1 order-sm-2">
           <div class="circle-testimonial  d-flex align-items-center justify-content-center"
-            style="background: url({{ 'static/testimonial_2.png' }}) ; background-size:cover">
+            style="background: url({{ '../static/testimonial_2.png' }}) ; background-size:cover">
           </div>
         </div>
       </div>

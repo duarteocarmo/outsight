@@ -2,25 +2,25 @@ _model: home
 ---
 _template: home.html
 ---
-language: en
+language: pt
 ---
-headline: Developing people at work
+headline: Desenvolvendo Pessoas no Trabalho
 ---
-about_menu: About us
+about_menu: Sobre nos
 ---
-team_menu: Team
+team_menu: Equipa
 ---
-what_menu: What we do
+what_menu: O que fazemos
 ---
-how_menu: How we do it
+how_menu: Como fazemos
 ---
-clients_menu: Clients
+clients_menu: Clientes
 ---
-contact_menu: Contact
+contact_menu: Contactos
 ---
 email_contact: hello@outsight.pt
 ---
-call_to_action: CONTACT US
+call_to_action: CONTACTE NOS
 ---
 quote_1: A coach is someone who tells you what you don’t want to hear, who has you see what you don’t want to see, so you can be who you always knew you could be.
 ---
