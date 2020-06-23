@@ -158,13 +158,13 @@
         </div>
         <div class="card" id="about-card">
           <div class="card-body">
-            <h5 class="card-title">{{ this.what_2_description }}</h5>
+            <h5 class="card-title">{{ this.what_2_title }}</h5>
             <p class="card-text">{{ this.what_2_description }}</p>
           </div>
         </div>
         <div class="card" id="about-card">
           <div class="card-body">
-            <h5 class="card-title">{{ this.what_3_description }}</h5>
+            <h5 class="card-title">{{ this.what_3_title }}</h5>
             <p class="card-text">{{ this.what_3_description }}</p>
           </div>
         </div>
@@ -336,7 +336,9 @@
             <h4 class="dark-green">{{this.service_cat_3 }}</h4>
             <p class="small-text">{{ this.service_1_solution }}</p>
             <h4 class="orange">{{this.service_cat_4 }}</h4>
-            <p class="dark-green">{{ this.service_1_results }}</p>
+            <div class="dark-green">
+              <p>{{ this.service_1_results }}</p>
+            </div>
           </div>
         </div>
         <div class="row collapse" id="collapseExample6" data-parent="#myServiceGroup">
@@ -350,7 +352,9 @@
             <h4 class="dark-green">{{ this.service_cat_3 }}</h4>
             <p class="small-text">{{ this.service_2_solution }}</p>
             <h4 class="orange">{{ this.service_cat_4 }}</h4>
-            <p class="dark-green">{{ this.service_2_results }}</p>
+            <div class="dark-green">
+              <p>{{ this.service_2_results }}</p>
+            </div>
           </div>
         </div>
         <div class="row collapse" id="collapseExample7" data-parent="#myServiceGroup">
@@ -364,7 +368,9 @@
             <h4 class="dark-green">{{ this.service_cat_3 }}</h4>
             <p class="small-text">{{ this.service_3_solution }}</p>
             <h4 class="orange">{{ this.service_cat_4 }}</h4>
-            <p class="dark-green">{{ this.service_3_results }}</p>
+            <div class="dark-green">
+              <p>{{ this.service_3_results }}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -463,22 +469,34 @@
       </div>
       <hr class="separator-1">
       <div class="row">
-        <div class="col-lg-9 text-right order-2 order-sm-2">
-          <p>{{this.client_testimonial_2 }}</p>
-        </div>
-        <div class="col-sm-3  mb-3 d-flex justify-content-center order-1 order-sm-2">
-          <div class="circle-testimonial  d-flex align-items-center justify-content-center"
+        <div class="col-sm-3  mb-3 d-flex justify-content-center">
+          <div class="circle-testimonial d-flex align-items-center justify-content-center"
             style="background: url({{ '../static/testimonial_2.png' }}) ; background-size:cover">
           </div>
         </div>
+        <div class="col-lg-9 text-left">
+          <p>{{this.client_testimonial_2 }}</p>
+        </div>
       </div>
+      <hr class="separator-1">
+      <div class="row">
+        <div class="col-sm-3  mb-3 d-flex justify-content-center">
+          <div class="circle-testimonial d-flex align-items-center justify-content-center"
+            style="background: url({{ '../static/testimonial_3.jpg' }}) ; background-size:cover">
+          </div>
+        </div>
+        <div class="col-lg-9 text-left">
+          <p>{{this.client_testimonial_3 }}</p>
+        </div>
+      </div>
+    </div>
   </section>
   <footer>
     <section class="pb-5 pt-5" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center my-auto">
-            <p>{{ this.email_contact }} • 2020 • All rights reserved.</p>
+            <p><a style="text-decoration: none;color: white;"href="mailto:{{ this.email_contact }}">{{ this.email_contact }}</a> • 2020 • All rights reserved.</p>
           </div>
           <div class="col-sm-3 mx-auto text-center my-auto">
             <a class="nav-link" target="_blank" href="https://linkedin.com/company/outsightportugal/"
