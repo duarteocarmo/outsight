@@ -5,11 +5,10 @@ The official website of Outsight Portugal. My mom's company.
 
 Built using lektor, bootstrap, and some custom css. 
 
-
 ## TODOs
-- Fix banner image
 
 ## Done
+- Fix banner image
 - Contact email 
 - Fix Spacing bug
 - Polish section by section with graphics (logos and such)
@@ -19,3 +18,4 @@ Built using lektor, bootstrap, and some custom css.
 - favicon
 - Meta Tags
 - Google Analytics
+- New orange section. 
