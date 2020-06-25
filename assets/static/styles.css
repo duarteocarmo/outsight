@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
 	--main-color: #37d3c4;
 	--secondary-color: #f26606;
