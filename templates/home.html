@@ -120,7 +120,8 @@
         </li>
     </div>
   </nav>
-  <header class="text-white" style="background: url({{ '../static/header_bg.jpg' }})">
+  <!--!<header class="text-white" style="background: url({{ '../static/header_bg.jpg' }})">-->
+  <header class="text-white">
     <div class="container text-center">
       <img class="img-fluid mb-4" src="{{ '../static/outsight_logo_large.png' }}" alt="Outsight Logo">
       <h1 class="mb-4">{{ this.headline }}</h1>
@@ -496,7 +497,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center my-auto">
-            <p><a style="text-decoration: none;color: white;"href="mailto:{{ this.email_contact }}">{{ this.email_contact }}</a> • 2020 • All rights reserved.</p>
+            <p><a style="text-decoration: none;color: white;"
+                href="mailto:{{ this.email_contact }}">{{ this.email_contact }}</a> • 2020 • All rights reserved.</p>
           </div>
           <div class="col-sm-3 mx-auto text-center my-auto">
             <a class="nav-link" target="_blank" href="https://linkedin.com/company/outsightportugal/"
