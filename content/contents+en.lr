@@ -1,0 +1,281 @@
+_model: home
+---
+_template: home.html
+---
+language: en
+---
+headline: developing people at work
+---
+about_menu: About us
+---
+team_menu: Team
+---
+what_menu: What we do
+---
+how_menu: How we do it
+---
+clients_menu: Clients
+---
+contact_menu: Contact
+---
+email_contact: hello@outsight.pt
+---
+call_to_action: CONTACT US
+---
+quote_1: A coach is someone who tells you what you don’t want to hear, who has you see what you don’t want to see, so you can be who you always knew you could be.
+---
+quote_1_source: Tom Landry
+---
+about_intro: Our name represents the essence of our joint work in organizations. It represents our approach and what we believe in: the value others bring us in broadening our vision of ourselves, of situations and of possibilities for action, by giving us an external look and revealing our blind spots. The useful insight that "outside views"​ bring to an Organization, a Team, and an Individual.
+---
+what_1_title: Problem Finding
+---
+what_1_description: We don't just do what we are asked, we go in search of the true source of the problem, before we go on to solutions.
+---
+what_2_title: Flexible solutions
+---
+what_2_description: We seek to ensure that we design a suitable solution to the challenge at hand, and adjust the approach along the way.
+---
+what_3_title: Background / multidisciplinary skills
+---
+what_3_description: We combine organizational development consulting, coaching, facilitation, training and team management skills and are able to adapt them to what the situation demands. This diversity of perspectives allows us to see problems from different angles and build more interesting solutions for the client.
+---
+what_4_title: We challenge our clients
+---
+what_4_description: We question ways of thinking and doing in a constructive and transparent way.
+---
+person_1_name: Ana Duarte Ribeiro
+---
+person_1_role: Senior Executive and Team Coach
+---
+person_1_cv:
+
+With 30 years of professional experience, Ana has worked in the areas of Organizational Development, Leadership, Executive Coaching, and Career Development. She has designed and/or led programs to improve personal, interpersonal, and organizational effectiveness for more than 100 companies and coached more than 200 executives.
+
+She has been a guest lecturer at the Católica-Lisbon School of Business and Economics for 20 years, where she has also held various leadership positions from 2003 to 2016, including the Executive Director and Director of the Career Development Center, and was a member of the School Board member between 2008 and 2016.
+
+Since August 2016, she is dedicated almost exclusively to coaching (teams and individuals) and to supporting the Top Management Teams of several multinational and Portuguese organizations while expanding her experience working with multicultural teams.
+
+Master in Human Resource Management, she holds a Sociology degree (ISCTE) and has been an Associate Certified Coach (ACC) since 2013 by the International Coaching Federation.
+
+---
+person_2_name: Joana Domingues
+---
+person_2_role: Senior Executive and Team Coach
+---
+person_2_cv:
+
+Working for 20 years with dozens of organizations, Joana coaches and consults in organizational development, and spends most of her time supporting Top Management Teams and their executives. She has designed and facilitated development processes in dozens of organizations, with groups and teams of 5 to 120 people, in various industries and countries, and has coached more than 250 executives, 20 teams and multiple peer-learning groups.
+
+At Católica-Lisbon she is faculty in Leadership Development – in Executive Programs and in TheLisbonMBA; she also coordinated the leadership skills program for the master’s in management for 6 years (including small group assessments, 360 feedback, field projects, and workshops).
+
+Previously, she was a management consultant at McKinsey&Co for 8 years, where she became part of the Global Practice for Organizational and Leadership Development; she remains an external advisor, coach, and facilitator.
+
+MBA (INSEAD), degree in Management (Católica-Lisbon), certified Conflict Mediator (ADR Group), and Lead Facilitator (Gita Bellin & Associates). Trained as Executive Coach (ICF, preparing PCC certification), and Voice Dialogue Facilitator.
+---
+person_3_name: Madalena Paiva
+---
+person_3_role: Executive Coach and Project Manager
+---
+person_3_cv:
+
+Madalena has 15 years of professional experience in career development, leadership development, and recruitment, in Portugal and Angola. She currently manages projects in multiple industries focused on the development of people and teams, and acts as a coach, having already supported over 30 Senior Managers, Managers, and High Flyers.
+
+For 8 years she was part of the Career Development Office at Católica-Lisbon, which she led for 4 years. Subsequently, she collaborated with McKinsey & Co as an External Consultant for attracting talent, in the Angola office. She was then the manager of the Unitel Training Academy in Angola, responsible for planning and implementing development programs for technical and management staff.
+
+She completed the Executive Coaching Certification Program and the Team Coaching Program at the European Coaching School, where she also collaborated in the area of business development, project management, and as a coach. Associate Certified Coach (ACC) by the International Coaching Federation.
+
+She holds a law degree from Universidade Católica Portuguesa and advanced training in General Management and Human Resource Management from Católica-Lisbon School of Business and Economics.
+
+---
+person_4_name: Teresa Oliveira
+---
+person_4_role: Senior Executive and Team Coach
+---
+person_4_cv:
+
+Teresa has 30 years of experience working as a group facilitator and consultant in leadership development, change management and team effectiveness, delivering customized solutions in these areas. She has designed and delivered dozens of programs centered on the development of personal skills, leadership, and team management, and facilitated meetings with several groups, in several firms/sectors. She is also experienced in facilitating group gatherings, as well as Top Team (team coaching).
+
+She has been working as a coach since 2005, was an Associate Certified Coach (ACC) for 8 years from the International Coaching Federation and currently is preparing her application as a PCC. In the last 14 years, she coached over 300 executives aiming at the enhancement of their leading skills and team performance.
+
+She is a Visiting Lecturer in the Executive Programs at Católica-Lisbon SBE in the areas of leadership development, team development, and she also coaches individuals in several of these programs. She coordinates the “Friday Forum-Leadership Development Program” in The Lisbon MBA Católica-Nova/MIT.
+
+She is a counselor trained by Escuela de Terapia Gestalt del IPG. Holds a degree in Sociology, a Master in Human Resources Management, and a Ph.D. in Economics of Innovation.
+
+---
+what_we_do_description: We work on developing people at work, with organizations of different sectors and dimensions, with three main focuses.
+---
+service_cat_1: Project example
+---
+service_cat_2: Challenge
+---
+service_cat_3: Solution
+---
+service_cat_4: Results
+---
+service_1_title: Tailor-made and applied Leadership Development Programs
+---
+service_1_subtitle: Supporting the organisation's development priorities and change efforts
+---
+service_1_name: "Mutual Growth Dialogues"
+---
+service_1_subname: Developing leadership and people development skills.
+---
+service_1_challenge:
+
+An industrial company, present in several countries and with a traditionally hierarchical culture, faced significant competitiveness and profitability challenges. Midway through an ambitious 3-year turn around and modernisation plan, that required increased cooperation and synergies among its operations in different countries. The success of the many planned initiatives also depended on the active and unprecedented participation of all hierarchical levels of the organization. This transformation needed more shared and flatter leadership, to support mutual development in an agile way. The Corporate HR Director asked us for help.
+
+---
+service_1_solution:
+
+We built a program with the client that we called "Mutual Growth Dialogues". We wanted to develop the capacity of its 70 managers in Portugal to conduct dialogues that would develop themselves, and the people they work with (their teams, their peers, and even their managers). The program included - over 9 months:
+* experiential sessions to align concepts
+* accompanied practice sessions in small groups
+* individual coaching sessions
+* stakeholders' feedback on the progress they observed.
+
+---
+service_1_results:
+
+Over 70% of the stakeholders who gave feedback to these managers at the end of the programme noticed positive progress in the quality and frequency of their dialogues over the previous 6 months. Some highlights of their stakeholders’ feedback:
+* Better and more relevant collaboration with other areas
+* Further engaging their teams and integrating their ideas
+* Raising more relevant issues, and co-creating better solutions with their own leaders
+
+---
+service_2_title: Team Coaching
+---
+service_2_subtitle: Continued support for alignment, execution, and renewal in the teams where cooperation matters most
+---
+service_2_name: "Building the Future - Top Team Workshop Series"
+---
+service_2_subname: Creating a space for regular top management reflection on its common priorities and the way the team operates together.
+---
+service_2_challenge:
+
+In a multinational automotive company, the foreign CEO, recently arrived in Portugal, experiences cultural distance in his relationship with his team: he expected to be challenged in meetings but this does not happen (although he senses disagreement), and he sees decisions he understood as being closed together often "reopened" or not implemented with no renegotiation. He asks for our help in "mediating" these differences in expectations and communication styles.
+
+---
+service_2_solution:
+
+We supported the design and facilitation of quarterly reflections on strategic priorities and projects, "unspoken problems", necessary changes in the organization, and ways to cooperate more effectively and with more satisfaction among team members.
+
+---
+service_2_results:
+
+Over time the team described experiencing an increasingly safe common space, to express concerns and explore new solutions together. We saw "old" issues - like people who hadn't lived up to performance expectations for years, in a variety of teams - get solutions and progress never experienced before. And we saw important steps on the path to increased mutual understanding and appreciation - to see each other in "new ways".
+---
+service_3_title: Individual Executive Coaching
+---
+service_3_subtitle: Time to think with support and challenge, on what matters most to you.
+---
+service_3_name: "Executive Coaching for Partners and Sector Managers"
+---
+service_3_subname: Supporting executives in an individual and customized way.
+---
+service_3_challenge:
+
+Professional services organization with strong growth: CEO wanted to create conditions for his partners and prospective partners to assume their role at their best. To do so, he wanted to provide them with confidential individual support, tailored to each one's needs, with total freedom and trust.
+---
+service_3_solution:
+We supported 10 top executives with individual executive coaching processes over a year. The process included collecting 360º interview feedback, and 10 confidential sessions on their goals, concerns and challenges.
+---
+service_3_results:
+
+At the end of this year, 5 of these 10 executives embraced challenges of greater responsibility, in Portugal, in other geographies, and even in multinational positions. We were delighted for them. We received very encouraging feedback: on a scale of 1 to 10, satisfaction with the coaching program was for all participants equal to or greater than 8. Value felt:
+* Discipline to devote time to thinking (that as busy executives we often complain of not being able to)
+* Much richer feedback than that received before, triggering deeper and more concrete reflection, and new strategies
+* To think out loud - to tell myself things I hadn't said yet, and that I realize at that moment are important
+* Talking to someone in whom I place great trust, who challenges me, makes me question myself, see myself from new angles, make new choices or make peace with my choices, more consciously.
+* Significant changes in one' s personal life (more sports, time with the family, ...) and professional life (in the relationship with peers and teams)
+
+---
+how_1: Aligning expected results and program kick-off (co-creating with client)
+---
+how_2: Preparing the ground and gaining awareness / new perspectives (workshops, gathering feedback, interviews)
+---
+how_3: Applying and going further (on-the-job and with support)
+---
+how_4: Reflecting on the experience and learning (collecting perspectives, follow-up)
+---
+how_small_1_title: We have worked with
+---
+how_small_1_content: +100 organizations, dozens of groups: large multinational and national companies (> 250 people) and growing companies (50 to 200 people).
+---
+how_small_2_title: Different sectors
+---
+how_small_2_content: Consulting firms, lawyer offices, industry, banking, insurance, health, consumer goods, technology & data, ...
+---
+how_small_3_title: Organization level
+---
+how_small_3_content: Board, Founding Owners, Executive Committees, Board Members, Partners / Associate Partners in consulting firms, High Flyers, MBA / Masters Students, Executive Programs.
+---
+how_small_4_title: Coaching experience
+---
+how_small_4_content: > 2.000 hours, + 900 coachees
+---
+how_small_5_title: Projects
+---
+how_small_5_content: Tailored development programs, team coaching, individual executive coaching and group coaching.
+---
+
+client_testimonial_1:
+
+“In the course of now 4 years, my various multinational teams and myself closely and very successfully cooperated with Joana and Ana.
+We had to cope with very different situations, be it the continuation of an already prosperously initiated success path with radically reduced management resources in one country or the completion of a disruptive restructuring process in three other ones in the spotlight of an unsatisfactory business situation.
+
+With their vast and broad business experience, their empathic and mindful approach and their remarkable coaching and consulting skills based on wide ready-to-use scientific knowledge, Ana and Joana accompanied us in regularly conducted step-back sessions as well as in defined intermediate steps between them.
+
+The success was unfailingly striking. Regardless of the concrete case, the cultural background or the personal situation of the people, by thoroughly listening to them in a non-superficial way, by generating self-reflection and the bravery to get to the core, Joana and Ana brought the teams forward in a way which did not only significantly improve the collaboration, but entered into measurable impressive commercial success. I don’t want to miss this experience.”
+
+**Niels Kowollik**
+
+*Since June 2018, CEO Benelux Cars, Mercedes-Benz AG*
+
+
+---
+client_testimonial_2:
+
+“Outsight team was fundamental and instrumental in the development of Bel Portugal organization: from interpersonal communication, through individual coaching, and coaching of hierarchical and project teams.
+I would highlight four major levers in managing change and upskilling our teams:
+* Ability to carefully study the specific needs of each team and each leader
+* Advanced competencies in organizational efficiency
+* Integrated work of multiple Outsight coaches and their availability
+* Helping each leader gain new perspectives on difficult situations or obstacles.
+ 
+Some concrete examples of programs Bel Portugal implemented together with Outsight:
+* Empowerment, where we worked on teams' autonomy and accountability through alignment and feedback
+* Finance Business Partners, for accountability, proactivity and business partnership by the financial team
+* Less is More, where we worked on efficient meetings, priority management and focus on what is truly important.
+ 
+I can say that Outsight is definitely a partner team for open and innovative leadership.”
+
+**Ana Claudia Sá**
+
+*Global General Manager KIRI, Groupe Bel, Paris since April 2019*
+
+*Board Member Bel Europe since september 2014*
+
+*General Manager Bel Portugal from march 2009 to march 2019*
+
+---
+client_testimonial_3:
+
+“Our partnership with outsight has now over 4 years and has been crucial for the development of our people and our teams. When we started this partnership, with Zeugma nearly 20 years old, we had very important challenges ahead, which required a very profound transformation that would bring people to the center of decisions, involving them and holding them accountable in this process.
+ 
+The first project focused on developing the management team in multiple dimensions:
+* Monitoring results in a transparent way and taking responsibility for the results
+* Developing open bottom-up communication channels
+* Creating a culture of factual and transparent communication, with clear expectations and true confrontation of ideas
+* Executive and team coaching
+ 
+Throughout this development journey, which ended up also incorporating management techniques and methodologies (TOC, Lean, Six Sigma), outsight has always had a relevant contribution, ensuring the connection and commitment of people to the processes and systems.
+
+At the moment, and thanks to the development we started more than four years ago, we are evolving towards becoming a company organized around self-managed teams and outsight is once again giving us crucial support.
+ 
+The value of the work done by outsight at Zeugma, makes us spontaneously consider this team as an integral part of our development.”
+
+**Raul Espírito Santo**
+
+*Zeugma, Tecnologia de Sistemas Industriais, Chairman*
+---

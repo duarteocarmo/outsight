@@ -2,12 +2,12 @@
 name = outsight
 url = "https://outsight.pt"
 
-[alternatives.en]
-name = English
-primary = yes
-locale = en_US
-
 [alternatives.pt]
 name = Portugues
-url_prefix = /pt/
-locale = pt
+primary = yes
+locale = pt_PT
+
+[alternatives.en]
+name = English
+url_prefix = /en/
+locale = en_US
